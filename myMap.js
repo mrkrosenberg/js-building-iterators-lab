@@ -2,7 +2,13 @@
 
 function myMap(arr, callback) {
 
-//  CODE INSIDE HERE   //
+var array = [];									//creates empty array and stores it in array
+for (let i = 0; i < arr.length; i++) {			//loops through the array
+	array.push(callback(arr[i], i, arr));
+
+}
+
+return array;
 
 }
 

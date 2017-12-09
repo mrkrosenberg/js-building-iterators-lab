@@ -17,6 +17,15 @@ var numArray = [0,1,10,100,1000];
    console.log('inside myEach', element, index, arr);
  });*/
 
+ 
+function myEach(arr, callback) {
+  
+for (let i = 0; i < numArray.length; i++) {
+ 	console.log('inside myEach', numArray[i], i, arr);
+ }
+
+}
+
 
 
 
